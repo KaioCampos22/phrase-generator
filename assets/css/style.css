@@ -1,0 +1,56 @@
+:root {
+    --primary-color: rgb(136, 255, 136);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(20, 20, 47);
+}
+
+.container {
+    margin: auto;
+    margin-top: 18rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(91, 119, 141);
+    width: 30rem;
+    height: 22rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    /* gap: 5rem; */
+}
+
+p {
+    color: var(--primary-color);
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+}
+
+a {
+    border: none;
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 4rem;
+    height: 2rem;
+    text-align: center;
+    background: var(--primary-color);
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+a:hover {
+    box-shadow: 1rem solid black;
+}
+
+h2 {
+    color: rgb(208, 208, 208);
+}
